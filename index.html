@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Stein saks papir</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styling.css">
+    </head>
+    <style>
+    </style>
+    <body>  
+            <!-- Lagar ei overskrift med id "overskrift" -->
+            <h1 id = "overskrift"> Stein saks papir</h1>
+            <!-- Lagar ein knapp med id "ny" og klassa "ny" -->
+            <button id = "ny" class = "ny">Start på nytt</button>
+
+            <!--lagar ei under overskrift med id "kommentar" -->
+            <h2 id="kommentar"> trykk på kva du vil velge</h2>
+
+            <!--Lagar bilete med id "stein""saks" og papir, og bestemmar størrelsen og kilda til bilete-->
+            <input type="image" src="Bilete/8-2-rock-png-picture.png" id = "Stein" width ="10%" height = "10%"/>            
+            <input type="image" src="Bilete/10-2-scissor-download-png.png" id = "Saks" width ="10%" height = "10%"/>            
+            <input type="image" src="Bilete/pngwing.com.png" id = "Papir" width ="7%" height = "10%"/>
+            <!--Grupperar to bilete i ein div med id "resultat", id en til bileta er "spelar" og "datamaskin og erklærar breidde og høgde"-->   
+            <div class="resultat">
+            <input type="image" src="Bilete/placeholder.JPG" id = "Spelar" width="15%" height="25%"/> 
+            <h3 id="VS">VS</h3>
+            <input type="image" src="Bilete/placeholder.JPG" id = "Datamaskin" width="15%" height="25%" />
+            </div>            
+        
+        <!--erklærar 4 underoverskrifter og grupperar dei saman i ein div med id "tal"-->
+        <div id="Tal">
+        <h2 id = "vinn">Antall vinn: </h2>
+        <h2 id = "tap">Antall tap: </h2>
+        <h2 id = "Uavgjort">Antall uavgjort: </h2>
+        <h2 id = "Antall">gongar spelt: </h2>
+        </div>
+        
+   
+        
+        <script src="tidy.js">
+        </script>
+    </body>
+</html>

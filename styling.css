@@ -1,0 +1,80 @@
+ /*Endrar element i body */
+body {    
+    /*endrar bakgrunnsfargen*/
+    background-color: #85dcb8;
+    /*endrar skrifta for heile sida med mindre noko anna blir spesifisert*/
+    font-family: sans-serif;
+}
+/*endrar element som er i h2*/
+h2 {
+    /*Endrar fargen på skrifta*/
+    color: #323232;    
+}
+/*endrar element med id "kommentar"*/
+#kommentar {
+    /*gjer slik at elementet blir stilt 45% frå venstre */
+    margin-left: 45%;
+}
+/*Endrar element med id "Stein"*/
+#Stein {
+/*gjer slik at elemetet blir stilt 38% frå venstre */
+ margin-left: 38%;
+ /*bestemmar kor mange pixlar den skal vere frå toppen */
+ top: 50px;
+    
+}
+/*endrar element med id "Spelar" */
+#Spelar{
+    /*gjer slik at ingenting skal skje når peikaren er over */
+    pointer-events: none;
+}
+/*endrar element med id "Datamaskin"*/
+#Datamaskin {
+    /*gjer slik at ingenting skal skje når peikaren er over */
+    pointer-events: none;
+}
+/*endrar element med id "overskrift"*/
+#overskrift {
+/*gjer slik at den blir 30 pixlar frå toppen */
+margin-top: 30px;
+/*gjer slik at den er 45% frå venstre */
+margin-left: 45%;
+}
+/*endrar element i klassa resultat */
+.resultat{
+/*gjer slik at elemeta kjem på samme linje */
+display:inline-flex;
+/*gjer den 3% frå toppen*/
+margin-top: 3%;
+/*gjer den 40% frå venstre*/
+ margin-left: 40%;
+ /*gjer den 50% av original størrelsen*/
+ size: 50%;
+}
+
+/*endrar element med id "ny"*/
+.ny{
+/*gjer bakgrunnsfargen til svart*/
+background-color:#000000;
+/*endrar skrift fargen til kvit*/
+color:#ffffff;
+/*endrar skrifttypen til arial*/
+font-family:Arial;
+/*gjer skriftstørrelsen 15 pixlar*/
+font-size: 15px;
+/*gir den en bold effekt*/
+font-weight: bold;
+/*gjer at den havnar 50% frå venstre*/
+margin-left: 50%;
+}
+
+/*endrar element med id "tal"*/
+#Tal {
+    /*gjer slik at den havnar*/
+    /*margin-top: 80px;
+    /*gjer at den havnar 750 pixlar frå venstre*/
+    /*margin-left: 750px !important;*/
+    text-align: center;
+}
+
+
